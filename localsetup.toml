@@ -1,16 +1,22 @@
+[packages]
+install = [
+  "git",
+  "fish",
+]
+
 [ssh]
 no_passphrase = true
+
+[git]
+name = "zgtm"
+email = "zgtm@example.com"
 
 [[repositories]]
 source = "git@git.zgtm.de:zgtm/dotfiles.git"
 target = "~/.local/share/dotfiles"
 synchronise = true
 
-[packages]
-install = [
-  "git",
-  "fish",
-]
+
 
 [ubuntu]
 remove_snap_and_install_firefox_ppa = true
