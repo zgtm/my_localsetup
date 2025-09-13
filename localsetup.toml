@@ -4,6 +4,7 @@ no_passphrase = true
 [[repositories]]
 source = "git@git.zgtm.de:zgtm/dotfiles.git"
 target = "~/.local/share/dotfiles"
+synchronise = true
 
 [packages]
 install = [
