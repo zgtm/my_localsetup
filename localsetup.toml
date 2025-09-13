@@ -1,0 +1,17 @@
+[ssh]
+no_passphrase = true
+
+[[repositories]]
+source = "git@git.zgtm.de:zgtm/dotfiles.git"
+target = "~/.local/share/dotfiles"
+
+[packages]
+install = [
+  "git",
+  "fish",
+]
+
+[ubuntu]
+remove_snap_and_install_firefox_ppa = true
+remove_snap_and_install_firefox_ppa_yes_delete_my_bookmarks_and_everything = true
+
