@@ -16,7 +16,9 @@ source = "git@git.zgtm.de:zgtm/dotfiles.git"
 target = "~/.local/share/dotfiles"
 synchronise = true
 
-
+[rustup]
+install_rust = true
+update_rust = true
 
 [ubuntu]
 remove_snap_and_install_firefox_ppa = true
