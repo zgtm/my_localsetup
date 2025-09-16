@@ -1,20 +1,9 @@
-[packages]
-install = [
-  "git",
-  "fish",
-]
-
 [ssh]
 no_passphrase = true
 
 [git]
-name = "zgtm"
-email = "zgtm@example.com"
-
-[[repositories]]
-source = "git@git.zgtm.de:zgtm/dotfiles.git"
-target = "~/.local/share/dotfiles"
-synchronise = true
+name = "zgtm" 
+email = "zgtm@example.com" # both will be overwritten by dotfiles
 
 [rustup]
 install_rust = true
@@ -23,4 +12,61 @@ update_rust = true
 [ubuntu]
 remove_snap_and_install_firefox_ppa = true
 remove_snap_and_install_firefox_ppa_yes_delete_my_bookmarks_and_everything = true
+
+[ghostty]
+install_ghosty_from_ghostty_ubuntu = true
+
+[tuxedo]
+compile_tuxedo_drivers
+install_tuxedo_control_center
+
+[restic]
+generate_key = true
+
+
+[xdg-user-dirs]
+
+move_existing = true
+
+desktop = "$HOME/Desktop"
+documents = "$HOME/Documents"
+downloads = "$HOME/Downloads"
+music = "$HOME/Music"
+pictures = "$HOME/Pictures"
+publicshare = "$HOME/Public"
+templates = "$HOME/Templates"
+videos = "$HOME/Videos"
+
+
+[packages]
+
+install = [
+  "git",
+  "fish",
+  "curl",
+  "ripgrep",
+  "pavucontrol",
+  
+  "build-essential",
+  "make",
+]
+
+
+[[repositories]]
+
+source = "git@git.zgtm.de:zgtm/dotfiles.git"
+target = "~/.local/share/dotfiles"
+synchronise = true
+run_always = "~/.local/share/dotfiles/_bootstrap.sh"
+
+source = "git@git.zgtm.de/zgtm/templates.git"
+target = "~/unterlagen/vorlagen"
+update = true
+
+source = "https://git.zgtm.de/zgtm/tools"
+target = "~/.local/share/tools"
+update = true
+
+
+[[symlinks]]
 
