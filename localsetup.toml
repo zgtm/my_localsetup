@@ -69,7 +69,7 @@ target = "~/unterlagen/vorlagen"
 update = true
 
 [[repositories]]
-source = "https://git.zgtm.de/zgtm/tools"
+source = "git@git.zgtm.de/zgtm/tools"
 target = "~/.local/share/tools"
 update = true
 
