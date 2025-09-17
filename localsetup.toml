@@ -23,6 +23,9 @@ install_tuxedo_control_center = true
 [restic]
 generate_key = true
 
+[uv]
+install_astral_sh = true
+
 [xdg-user-dirs]
 
 move_existing = true
