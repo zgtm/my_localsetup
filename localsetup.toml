@@ -23,7 +23,6 @@ install_tuxedo_control_center = true
 [restic]
 generate_key = true
 
-
 [xdg-user-dirs]
 
 move_existing = true
@@ -48,21 +47,25 @@ install = [
   "pavucontrol",
   
   "build-essential",
-  "make",
+  "make", 
+  
+  "pkg-config", # rust
+  "libssl-dev", # rust openssl
 ]
 
 
 [[repositories]]
-
 source = "git@git.zgtm.de:zgtm/dotfiles.git"
 target = "~/.local/share/dotfiles"
 synchronise = true
 run_always = "~/.local/share/dotfiles/_bootstrap.sh"
 
+[[repositories]]
 source = "git@git.zgtm.de/zgtm/templates.git"
 target = "~/unterlagen/vorlagen"
 update = true
 
+[[repositories]]
 source = "https://git.zgtm.de/zgtm/tools"
 target = "~/.local/share/tools"
 update = true
