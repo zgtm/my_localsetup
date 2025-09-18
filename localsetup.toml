@@ -46,6 +46,7 @@ install = [
   "git",
   "fish",
   "curl",
+  "htop",
   "ripgrep",
   "pavucontrol",
   
