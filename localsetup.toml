@@ -1,3 +1,6 @@
+[localsetup]
+autoupdate = true
+
 [ssh]
 no_passphrase = true
 
