@@ -47,6 +47,7 @@ install = [
   "fish",
   "curl",
   "htop",
+  "jq",
   "ripgrep",
   "pavucontrol",
   
