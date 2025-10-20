@@ -51,11 +51,34 @@ install = [
   "curl",
   "htop",
   "jq",
+  "age",
+  "fd-find",
   "ripgrep",
   "pavucontrol",
+  "speedcrunch",
+  "redshift",
+  "tree",
   
   "build-essential",
   "make", 
+  "python-is-python3"
+  "cmake",
+  "imagemagick",
+  "pandoc",
+  "whois",
+  "wireguard",
+  "postgresql-client",
+
+  "emacs-pgtk",
+  "elpa-use-package",
+  "elpa-rust-mode",
+  "elpa-web-mode",
+  "elpa-markdown-mode",
+  "elpa-projectile",
+  "elpa-vertico",
+  "elpa-orderless",
+  "elpa-spinner",
+  "elpa-magit",
   
   "pkg-config", # rust
   "libssl-dev", # rust openssl
