@@ -61,7 +61,7 @@ install = [
   
   "build-essential",
   "make", 
-  "python-is-python3"
+  "python-is-python3",
   "cmake",
   "imagemagick",
   "pandoc",
