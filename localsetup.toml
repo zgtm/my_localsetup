@@ -92,12 +92,12 @@ synchronise = true
 run_always = "~/.local/share/dotfiles/_bootstrap.sh"
 
 [[repositories]]
-source = "git@git.zgtm.de/zgtm/templates.git"
+source = "git@git.zgtm.de:zgtm/templates.git"
 target = "~/unterlagen/vorlagen"
 update = true
 
 [[repositories]]
-source = "git@git.zgtm.de/zgtm/tools"
+source = "git@git.zgtm.de:zgtm/tools"
 target = "~/.local/share/tools"
 update = true
 
