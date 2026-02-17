@@ -7,7 +7,7 @@ no_passphrase = true
 [git]
 overwrite_existing = false
 name = "zgtm" 
-email = "zgtm@example.com"
+email = "zgtm@example.com" # Will be overwritten by dotfiles checkout
 
 [rustup]
 install_rust = true
