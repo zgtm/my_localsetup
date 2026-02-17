@@ -19,10 +19,6 @@ remove_snap_and_install_firefox_ppa_yes_delete_my_bookmarks_and_everything = tru
 [ghostty]
 install_ghosty_from_ghostty_ubuntu = true
 
-[tuxedo]
-compile_tuxedo_drivers = true
-install_tuxedo_control_center = true
-
 [restic]
 generate_key = true
 
