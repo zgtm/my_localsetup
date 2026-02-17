@@ -33,14 +33,14 @@ install_astral_sh = true
 
 move_existing = true
 
-desktop = "$HOME/Desktop"
-documents = "$HOME/Documents"
-downloads = "$HOME/Downloads"
-music = "$HOME/Music"
-pictures = "$HOME/Pictures"
-publicshare = "$HOME/Public"
-templates = "$HOME/Templates"
-videos = "$HOME/Videos"
+desktop = "$HOME/.local/share/desktop"
+documents = "$HOME/unterlagen"
+downloads = "$HOME/downloads"
+music = "$HOME/audio"
+pictures = "$HOME/bilder"
+publicshare = "$HOME/.local/share/public"
+templates = "$HOME/unterlagen/templates"
+videos = "$HOME/video"
 
 
 [packages]
