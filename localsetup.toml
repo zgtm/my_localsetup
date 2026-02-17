@@ -5,7 +5,6 @@ autoupdate = true
 no_passphrase = true
 
 [git]
-overwrite_existing = false
 name = "zgtm" 
 email = "zgtm@example.com" # Will be overwritten by dotfiles checkout
 
