@@ -5,8 +5,9 @@ autoupdate = true
 no_passphrase = true
 
 [git]
+overwrite_existing = false
 name = "zgtm" 
-email = "zgtm@example.com" # both will be overwritten by dotfiles
+email = "zgtm@example.com"
 
 [rustup]
 install_rust = true
@@ -26,9 +27,7 @@ generate_key = true
 install_astral_sh = true
 
 [xdg-user-dirs]
-
 move_existing = true
-
 desktop = "$HOME/.local/share/desktop"
 documents = "$HOME/unterlagen"
 downloads = "$HOME/downloads"
@@ -38,9 +37,7 @@ publicshare = "$HOME/.local/share/public"
 templates = "$HOME/unterlagen/templates"
 videos = "$HOME/video"
 
-
 [packages]
-
 install = [
   "git",
   "fish",
@@ -80,7 +77,6 @@ install = [
   "libssl-dev", # rust openssl
 ]
 
-
 [[repositories]]
 source = "git@git.zgtm.de:zgtm/dotfiles.git"
 target = "~/.local/share/dotfiles"
@@ -96,7 +92,6 @@ update = true
 source = "git@git.zgtm.de:zgtm/tools"
 target = "~/.local/share/tools"
 update = true
-
 
 [[symlinks]]
 
