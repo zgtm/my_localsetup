@@ -17,6 +17,9 @@ update_rust = true
 remove_snap_and_install_firefox_ppa = true
 remove_snap_and_install_firefox_ppa_yes_delete_my_bookmarks_and_everything = true
 
+[signal]
+install_signal_desktop_ubuntu = true
+
 [ghostty]
 install_ghosty_from_ghostty_ubuntu = true
 
