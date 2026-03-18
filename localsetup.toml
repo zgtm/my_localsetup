@@ -28,7 +28,7 @@ generate_key = true
 [uv]
 install_astral_sh = true
 
-[xdg-user-dirs]
+[xdg_user_dirs]
 move_existing = true
 desktop = "$HOME/.local/share/desktop"
 documents = "$HOME/unterlagen"
