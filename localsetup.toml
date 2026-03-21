@@ -53,6 +53,8 @@ install = [
   "speedcrunch",
   "redshift",
   "tree",
+  "ansible",
+  "minisign",
   
   "build-essential",
   "make", 
@@ -94,6 +96,13 @@ update = true
 source = "git@git.zgtm.de:zgtm/tools"
 target = "~/.local/share/tools"
 update = true
+
+[[repositories]]
+source = "git@git.zgtm.de:zgtm/computers"
+target = "~/.local/share/computers"
+update = true
+run_always = "make
+run_always_in = "~/.local/share/computers"
 
 [[symlinks]]
 
