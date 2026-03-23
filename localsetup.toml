@@ -102,7 +102,7 @@ run_always = "if grep -q 'PATH=\"$HOME/.local/share/tools2:$PATH\"' ~/.profile ;
 source = "git@git.zgtm.de:zgtm/computers"
 target = "~/.local/share/computers"
 update = true
-run_always = "make
+run_always = "make"
 run_always_in = "~/.local/share/computers"
 
 [[symlinks]]
