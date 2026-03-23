@@ -96,6 +96,7 @@ update = true
 source = "git@git.zgtm.de:zgtm/tools"
 target = "~/.local/share/tools"
 update = true
+run_always = "if grep -q 'PATH=\"$HOME/.local/share/tools2:$PATH\"' ~/.profile ; then : ; else echo 'PATH=\"$HOME/.local/share/tools2:$PATH\"' >> ~/.profile ; fi"
 
 [[repositories]]
 source = "git@git.zgtm.de:zgtm/computers"
