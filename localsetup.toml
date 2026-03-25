@@ -98,7 +98,7 @@ target = "~/unterlagen/vorlagen"
 update = true
 
 [[repositories]]
-source = "git@git.zgtm.de:zgtm/unterlagen-peeriot.git
+source = "git@git.zgtm.de:zgtm/unterlagen-peeriot.git"
 target = "~/unterlagen/peeriot"
 update = true
 
