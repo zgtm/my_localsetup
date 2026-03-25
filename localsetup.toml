@@ -55,6 +55,11 @@ install = [
   "tree",
   "ansible",
   "minisign",
+
+  "libreoffice",
+  "texlive-latex-base",
+  "texlive-latex-extra",
+  "texlive-lang-german",
   
   "build-essential",
   "make", 
